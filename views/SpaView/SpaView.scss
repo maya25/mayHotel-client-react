@@ -1,0 +1,39 @@
+@import "../../vars.scss";
+
+.spa-item {
+  background-color: $secondary;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  &:nth-child(2n) {
+    background-color: $green;
+  }
+
+  opacity: 0.8s;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+.my-spa-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $secondary;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+  &:nth-child(2n) {
+    background-color: $green;
+  }
+
+  opacity: 0.8s;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 1;
+  }
+}

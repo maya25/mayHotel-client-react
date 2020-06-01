@@ -1,0 +1,67 @@
+@import "../../vars.scss";
+
+.ReactModal__Overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3000;
+}
+
+.cancel-modal-container {
+  width: 90%;
+  font-size: 18px;
+  background-color:  $primary ;
+  border-radius: 7px;
+  color: #fff;
+}
+
+.cancel-modal {
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  > *:not(.cancel-modal-content) {
+    flex-basis: 40px;
+  }
+  > *:not(.cancel-modal-button-container) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.cancel-modal-header {
+  border-bottom: 2px solid $secondary;
+}
+.cancel-modal-button-container {
+  border-top: 2px solid $secondary;
+}
+.cancel-modal-content {
+  flex: 1;
+  line-height: 1.2;
+}
+
+.close-modal-button {
+  padding: 12px;
+  border: 0;
+  background-color: #3366ff;
+  color: #fff;
+  width: 50%;
+  height: 100%;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  font-size: 18px;
+}
+
+.confirm-modal-button {
+  padding: 12px;
+  border: 0;
+  background-color: red;
+  color: #fff;
+  width: 50%;
+  height: 100%;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  font-size: 18px;
+}
+

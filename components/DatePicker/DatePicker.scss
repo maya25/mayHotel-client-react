@@ -1,0 +1,25 @@
+@import "../../vars.scss";
+
+.react-datepicker {
+  .react-datepicker__month-container {
+    width: 100%;
+  }
+  .react-datepicker__day-names,
+  .react-datepicker__week {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.react-datepicker__input-container input {
+  display: block !important;
+  width: 100% !important;
+  text-align: center;
+  padding: 5px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: $primary;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: $secondary;
+}

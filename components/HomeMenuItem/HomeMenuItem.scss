@@ -1,0 +1,35 @@
+@import "../../vars.scss";
+
+.home-menu-item {
+  flex-basis: calc(50% - 30px);
+  margin: 20px 15px;
+}
+
+.home-menu-item-icon-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: $secondary;
+  margin: 0 auto 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-menu-item-icon {
+  max-width: 50%;
+}
+
+.home-menu-item a {
+  display: inline-block;
+
+  &,
+  &:active,
+  &:visited {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.home-menu-item-title {
+  font-size: 18px
+}

@@ -1,0 +1,50 @@
+@import '../../vars.scss';
+
+.profile {
+  width: 100%;
+  font-size: 18px;
+  padding-top:10px;
+  
+}
+
+
+.profile-title {  
+font-weight: bold;
+color: $primary;
+font-size:22px;
+padding-right: 13px;
+}
+
+.profile-list{
+  height: 100%;
+  width: 100%;
+  border: 1px;
+ text-align: right;
+ padding-top: 0px;
+}
+.profile-list>ul{
+  margin: 20px
+}
+.profile-list>ul>li{
+  padding-bottom:10px; 
+  direction: rtl;
+}
+.profile-list>ul>li>strong{
+  font-weight: bold;
+  color:$primary;
+}
+
+.edit-form{
+padding-top:50px; 
+}
+.submit-form{
+  padding: 12px;
+  border: 0;
+  background-color: green;
+  color: #fff;
+  width: 50%;
+  height: 100%;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  font-size: 18px;
+}

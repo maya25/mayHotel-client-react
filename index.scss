@@ -1,0 +1,39 @@
+@import "./vars.scss";
+
+body {
+  margin: 0;
+  direction: rtl;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.site-icon {
+  filter: brightness(100);
+}
+input{
+  text-align: center;
+}
+.disclaimer {
+  border-bottom: 2px solid  $primary ;
+  p {
+    font-size: 15px;
+    line-height: 1.2;
+    font-weight: 700;
+    padding: 0 10px;
+
+    strong {
+      color: $secondary;
+    }
+    a {
+      font-size: 16px;
+      &,
+      &:hover,
+      &:visited {
+        color: $secondary;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+@import '../../vars.scss';
+
+.contact {
+  position: absolute;
+  left:50%;
+  width: 100%;
+  transform: translateX(-50%);
+  font-size: 22px;
+  padding-top:20px;
+  text-align: center;
+}
+
+.contact-title {  
+font-weight: bold;
+color: $primary;
+font-size:26px;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+.contact-list a{
+  text-decoration: none;
+}
+a:visited{
+  color: blue;
+}
+
+.contact-list{
+  height: 100%;
+  width: 100%;
+  border: 1px;
+ text-align: right;
+ padding-top: 10px;
+}
+.contact-list>ul{
+  margin: 20px
+}
+.contact-list>ul>li{
+  padding-right: 13px;
+  padding-bottom:40px; 
+  direction: rtl;
+}
+.contact-list>ul>li>strong{
+  font-weight: bold;
+  color:$primary;
+}
